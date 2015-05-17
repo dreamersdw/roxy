@@ -1,0 +1,8 @@
+[package]
+name = "roxy"
+version = "0.1.0"
+authors = ["dreamersdw <dreamersdw@gmail.com>"]
+
+[dependencies]
+docopt = "*"
+rustc-serialize = "*"
