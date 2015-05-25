@@ -6,3 +6,15 @@ authors = ["dreamersdw <dreamersdw@gmail.com>"]
 [dependencies]
 docopt = "*"
 rustc-serialize = "*"
+mio = "0.3.0"
+
+[lib]
+name = "roxy"
+path = "src/lib.rs"
+test = false
+doctest = false
+
+[[bin]]
+name = "roxy-server"
+path = "src/bin/roxy-server.rs"
+test = false
